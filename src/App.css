@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+#ragister{
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+  background-color: rgba(128, 232, 250, 0.914);
+}
+#ragister input{
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  text-transform: capitalize;
+  width: 300px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+}
+#submit{
+  background-color: rgb(51, 206, 51);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+#login{
+  margin: 50px 0px;
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+  background-color: rgba(229, 236, 160, 0.914);
+}
+#login input{
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  text-transform: capitalize;
+  width: 300px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+}
+#login2{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
