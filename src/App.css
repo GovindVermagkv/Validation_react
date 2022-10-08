@@ -1,9 +1,14 @@
 .App {
   text-align: center;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 #ragister{
   width: 100%;
-  height: auto;
+  height: 90vh;
+  text-align: center;
   padding: 30px 0px;
   background-color: rgba(128, 232, 250, 0.914);
 }
@@ -17,18 +22,36 @@
   border-radius: 10px;
   border: none;
 }
+#ragister>h1{
+  color: red;
+}
 #submit{
   background-color: rgb(51, 206, 51);
   color: white;
   font-size: 20px;
   cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .3s;
 }
+#submit:hover{
+  background-color: rgb(97, 228, 97);
+}
+
 #login{
-  margin: 50px 0px;
+  margin: 5px 0px;
   width: 100%;
-  height: auto;
+  height: 90vh;
+  text-align: center;
   padding: 30px 0px;
-  background-color: rgba(229, 236, 160, 0.914);
+  background-color: rgba(160, 209, 236, 0.914);
+}
+#login > h1{
+  text-align: center;
+  color: red;
 }
 #login input{
   display: block;
@@ -44,4 +67,16 @@
   background-color: blue;
   color: white;
   cursor: pointer;
+  padding: 10px 70px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 20px;
+}
+#layout{
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: aquamarine;
+  padding: 40px 0px;
+  margin-bottom: 5px;
 }
